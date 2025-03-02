@@ -1,0 +1,67 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hello", "hi", "hey", "good day", "greetings", "what's up", "how are you"],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! What questions do you have about our website?",
+                "Greetings! What would you like to know?"
+            ]
+        },
+        {
+            "tag": "signup",
+            "patterns": ["how do I sign up?", "what is the signup process?", "I want to create an account", "can you help me sign up?", "how to register"],
+            "responses": [
+                "To sign up, click on the 'Sign Up' button on the homepage. Fill in your details and hit 'Submit'. If you need help, just ask!",
+                "You can register by clicking on 'Sign Up'. Fill in your name, email, and password, then click 'Create Account'.",
+                "Simply click on 'Sign Up' at the top right corner and follow the instructions to create your account."
+            ]
+        },
+        {
+            "tag": "login",
+            "patterns": ["how do I log in?", "I forgot my password", "can't access my account", "help me log in", "where do I enter my credentials"],
+            "responses": [
+                "To log in, click on the 'Login' button. Enter your email and password, then click 'Submit'. If you forgot your password, use the 'Forgot Password?' link.",
+                "Just click 'Login' at the top right and enter your details. If you're having trouble, let me know!",
+                "You can log in by clicking on 'Login' and entering your email and password. If you need to reset your password, click 'Forgot Password?'."
+            ]
+        },
+        {
+            "tag": "navigation_help",
+            "patterns": ["how to navigate the site?", "where can I find the dashboard?", "help me find my profile", "how do I access features?", "where's the settings menu"],
+            "responses": [
+                "To navigate the site, use the menu at the top. You can find your profile, dashboard, and settings there.",
+                "You can find the dashboard in the main menu. Just click on 'Dashboard' to see your activity.",
+                "The settings menu is located at the top right corner. Click on your profile picture, and you'll see the options."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "goodbye", "see you later", "farewell", "take care"],
+            "responses": [
+                "Goodbye! If you have more questions, feel free to ask anytime!",
+                "See you later! Enjoy exploring the website!",
+                "Take care! I'm here if you need further assistance."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thank you", "thanks", "appreciate it", "thank you so much"],
+            "responses": [
+                "You're welcome! I'm glad I could help!",
+                "Happy to assist! If you have any more questions, just let me know!",
+                "My pleasure! Feel free to ask anything else!"
+            ]
+        },
+        {
+            "tag": "error",
+            "patterns": ["I can't sign up", "I'm having issues logging in", "the site is not working", "error message", "problem accessing my account"],
+            "responses": [
+                "I'm sorry to hear that you're facing issues. Please check if your internet connection is stable. If the problem persists, contact our support team.",
+                "Let's troubleshoot this! Can you tell me more about the error message you're seeing?",
+                "If you're having trouble, make sure you're using the right email and password. If all else fails, reach out to support for help."
+            ]
+        }
+    ]
+}
